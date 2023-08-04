@@ -45,7 +45,15 @@ div#contenedor {
     opacity: 0.9;
     border-radius: 5%;
 }
-
+@keyframes fade-in{
+    to{
+        opacity: 0.9;
+    }
+}
+.contenido{
+    opacity: 0;
+    animation: fade-in 1s 2s forwards;
+}
 #fotoMia{
     position: fixed;
     top:0;
