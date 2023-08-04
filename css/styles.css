@@ -116,7 +116,10 @@ right: 0;
 .confirmar:hover{
     transform: scale(1.1);
 }
-@media (max-width:768px){
+@media (max-width:1000px){
+    body{
+        overflow: hidden;
+    }
     #fondoMobile{
         display: flex ;
     }
@@ -145,12 +148,12 @@ right: 0;
     }
     p.parrafo {
         margin: 0;
-        margin-right: 15%;
+        margin-right: 5%;
         padding: 5%;
         font-size: 12px;
     }
     .confirmar{
-        margin-right: 10%;
+        margin-right: 5%;
         text-decoration: none;
         cursor: pointer;
         color: white;
