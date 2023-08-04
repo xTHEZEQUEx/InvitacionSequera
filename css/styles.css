@@ -66,6 +66,11 @@ position: fixed;
 bottom: 0;
 right: 0;
 }
+.pawPatrol{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 @keyframes grow{
     0%,100%{
         transform: scale(1);
@@ -89,7 +94,8 @@ right: 0;
 .confirmar{
     text-decoration: none;
     cursor: pointer;
-    background-color: #FFFFFF;
+    color: white;
+    background-image:  linear-gradient(to left, #141e30, #243b55);
     padding: 1%;
     font-weight: 100;
     border-radius: 25px;
